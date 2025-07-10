@@ -1,0 +1,61 @@
+*{
+    margin:0px;
+    padding:0px;
+    text-align: center;
+}
+
+header{
+text-align: center;
+background-color: blue;
+height: 50px;
+line-height: 45px;
+}
+.symbols{
+    height: 150px;
+    width:150px;
+    border-radius: 40%;
+    display:inline-block;
+    justify-content: center;
+    align-items:center ;
+    margin-right: 100px;
+    gap: 3rem;
+    margin-top: 40px;}
+.symbols:hover{
+    border:5px solid black;
+    opacity:0.5;
+}
+img{
+     height: 150px;
+    width:150px;
+     border-radius: 40%;
+}
+#board{
+    display:inline-block;
+    display: flex;
+    justify-content: center;
+    text-decoration: solid;
+    font-size: 30px;
+}
+.me{
+    margin-right: 50px;
+    margin-top: 50px;
+}
+#you{
+    font-weight: 200px;
+}
+.play{
+    margin-top: 70px;
+    margin-left: 5px;
+}
+
+#msg{
+     background-color:cornflowerblue;
+    margin-left: 2px;
+    font-size: 50px;
+     display: inline;
+     border-radius: 20px;
+    padding: 1rem;
+    /* display: flex;
+    justify-content: center; */
+    
+}
